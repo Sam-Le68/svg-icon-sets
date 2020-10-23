@@ -17,6 +17,10 @@ body {
   margin: 0;
 }
 
+section {
+  margin: 0 1rem;
+}
+
 ul {
   list-style-type: none;
   display: grid;
@@ -24,6 +28,10 @@ ul {
   justify-content: center;
   margin: 0;
   padding: 0;
+}
+
+li{
+  margin: 0 1rem;
 }
 
 h2, h3, a {
@@ -34,6 +42,7 @@ h2, h3, a {
 
 h2 {
   font-size: 2rem;
+  margin: 1rem 0 2rem;
 }
 
 h3 {
@@ -53,21 +62,6 @@ a:hover {
   background-color: rgba(255, 255, 255, .7);
 }
 
-.icon {
-  position: relative;
-  height: 8em;
-  width: 8em;
-}
-
-.icon svg {
-  left: 0;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  width: 100%;
-  fill: currentColor;
-}
-
 @media only screen and (min-width: 38em) {
 
   html {
@@ -80,7 +74,7 @@ a:hover {
     grid-template-columns: 1fr 1fr 1fr;
     justify-content: center;
     margin: 1.5rem;
-    padding: 0;
+    padding: 6vmin;
   }
 
 }
