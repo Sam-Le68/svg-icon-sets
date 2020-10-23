@@ -6,6 +6,7 @@ html {
   text-size-adjust: 100%;
   font-family: Overpass, sans-serif;
   color: #fff;
+  line-height: 1.5;
 }
 
 *, *::before, *::after {
@@ -34,7 +35,7 @@ li {
   margin: 0 1rem;
 }
 
-h2, h3, a{
+h2, h3 {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -47,14 +48,19 @@ h2 {
 
 h3 {
   font-size: 1.5rem;
-  margin-top: 2rem;
+  margin: 0;
+}
+
+p {
+  margin-bottom: 2rem;
 }
 
 a {
+  text-align: center;
   text-decoration: none;
   color: inherit;
   padding: 1rem;
-  border-radius: 3px;
+  border-radius: 5px;
   border: .2rem solid white;
   font-size: 1.125rem;
 }
@@ -71,7 +77,7 @@ a:hover {
 @media only screen and (min-width: 38em) {
 
   h2 {
-    margin: 5.5rem 0 3rem;
+    margin: 2.5rem 0;
   }
 
   ul {
@@ -79,7 +85,7 @@ a:hover {
     grid-template-columns: 1fr 1fr 1fr;
     justify-content: center;
     margin: 1.5rem;
-    padding: 6vmin;
+    padding: 0 3rem;
   }
 
 }
@@ -87,7 +93,7 @@ a:hover {
 @media only screen and (min-width: 90em) {
 
   h2 {
-    margin: 5.5rem 0 3rem;
+    margin: 5.5rem 0 2rem;
   }
 
 }
