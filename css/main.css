@@ -14,18 +14,20 @@ html {
 }
 
 body {
-  background-image: linear-gradient(#ff9500, #ff5e3a);
   margin: 0;
 }
 
 section {
-  margin: 0 1rem;
+  display: grid;
+  grid-template-areas: "intro" "col1" "col2" "col3";
+  gap: 1rem;
+  padding: 0 1rem;
+  background-image: linear-gradient(#ff9500, #ff5e3a);
+  color: white;
 }
 
 ul {
   list-style-type: none;
-  display: grid;
-  grid-template-columns: 1fr;
   justify-content: center;
   margin: 0;
   padding: 0;
